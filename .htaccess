@@ -1,0 +1,4 @@
+#denegar el acceso a un directorio
+Options -Indexes
+ErrorDocument 403 /buzon/error.php
+ErrorDocument 404 /buzon/error.php
