@@ -1,0 +1,14 @@
+{
+    "name": "posco/poscoform",
+    "description": "Sistema de encuestas internas POSCO Puebla",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
